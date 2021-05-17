@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+#cat-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#imgCat{
+    margin-bottom: 5px;
+}
+#btnCat{
+    align-self: center;
+}
