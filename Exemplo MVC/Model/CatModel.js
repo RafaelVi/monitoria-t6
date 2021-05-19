@@ -1,6 +1,8 @@
 class CatModel{
     constructor(){
         this.img = "";
+
+
     }
     requereDados(){
         let request = new XMLHttpRequest;
@@ -10,6 +12,7 @@ class CatModel{
         request.addEventListener("load",() =>{
             if(request.status == 200){
                 let response = JSON.parse(request.responseText);
+                console.log(response);
                 this.img = response[0].url;
                 console.log(response);              
             }
