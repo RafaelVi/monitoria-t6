@@ -1,0 +1,19 @@
+{
+  "name": "node-semana-1",
+  "version": "1.0.0",
+  "description": "\"Revisao primeira semana de node pelo curso resilia educacao\"",
+  "main": "npmBibliotecasPacotes.js",
+  "scripts": {
+    "test": "echo test"
+  },
+  "keywords": [
+    "Revisao"
+  ],
+  "author": "Rafael Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
